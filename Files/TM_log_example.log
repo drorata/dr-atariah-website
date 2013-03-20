@@ -1,0 +1,9 @@
+Oct 29 01:48:03 AtariahMac com.apple.backupd[72684]: Starting standard backup
+Oct 29 01:48:03 AtariahMac com.apple.backupd[72684]: Backing up to: /Volumes/TimeMachine/Backups.backupdb
+Oct 29 01:50:01 AtariahMac com.apple.backupd[72684]: No pre-backup thinning needed: 2.39 GB requested (including padding), 421.37 GB available
+Oct 29 02:22:39 AtariahMac com.apple.backupd[72684]: Copied 944196 files (9.8 MB) from volume Macintosh HD.
+Oct 29 02:30:58 AtariahMac com.apple.backupd[72684]: No pre-backup thinning needed: 2.39 GB requested (including padding), 421.35 GB available
+Oct 29 03:12:17 AtariahMac com.apple.backupd[72684]: Copied 944309 files (8.7 MB) from volume Macintosh HD.
+Oct 29 03:55:32 AtariahMac com.apple.backupd[72684]: Starting post-backup thinning
+Oct 29 03:55:32 AtariahMac com.apple.backupd[72684]: No post-back up thinning needed: no expired backups exist
+Oct 29 03:55:32 AtariahMac com.apple.backupd[72684]: Backup completed successfully.
