@@ -7,7 +7,7 @@ function PageLastUpdated(){
 		var theYear = update.getFullYear()
 		var theHrs=update.getHours()
 		var theMin=update.getMinutes()
-		return ('Last Updated: '+theDate+'.'+theMonth+'.'+theYear+' - '+theHrs+':'+theMin);   
+		return ('Last Updated: '+theDate+'.'+theMonth+'.'+theYear);
 }
 
 function genFooter(){
@@ -20,12 +20,12 @@ function NavBar(str){
 			document.writeln('<LI><A HREF=index.html class="active">Home</A><BR>');
 		else
 			document.writeln('<LI><A HREF=index.html>Home</A><BR>');
-		
+
 		if (str == "http://page.mi.fu-berlin.de/atariah/research.html")
 			document.writeln('<LI><A HREF=research.html class="active">Research</A><BR>');
 		else
 			document.writeln('<LI><A HREF=research.html>Research</A><BR>');
-		
+
 		if (str == "http://page.mi.fu-berlin.de/atariah/talks.html")
 			document.writeln('<LI><A HREF=talks.html class="active">Talks</A><BR>');
 		else
@@ -34,7 +34,7 @@ function NavBar(str){
 		if (str == "http://page.mi.fu-berlin.de/atariah/gallery.html")
 			document.writeln('<LI><A HREF=gallery.html class="active">Gallery</A><BR>');
 		else
-			document.writeln('<LI><A HREF=gallery.html >Gallery</A><BR>');				
+			document.writeln('<LI><A HREF=gallery.html >Gallery</A><BR>');
 
 }
 
