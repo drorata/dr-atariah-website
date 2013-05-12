@@ -12,7 +12,8 @@ function PageLastUpdated(){
 
 function genFooter(){
 	var str = PageLastUpdated();
-	document.writeln("<i>"+str+"</i>");
+  var linkedIn = "<a href=\"http://de.linkedin.com/in/droratariah\"><img src=\"http://www.linkedin.com/img/webpromo/btn_profile_bluetxt_80x15.png\" width=\"80\" height=\"15\" border=\"0\" alt=\"View Dror Atariah's profile on LinkedIn\"></a>";
+	document.writeln("<i>"+str+"</i>,  " + linkedIn);
 }
 
 function NavBar(str){
@@ -75,10 +76,12 @@ Quotation[2] = "The laws of nature are but the mathematical thoughts of God";
 QuoteSource[2] = "Euclid";
 Quotation[3] = "It has been said that democracy is the worst form of government except all the others that have been tried";
 QuoteSource[3] = "Sir W. Churchill";
-Quotation[4] = "A man can't be too careful in the choice of his enemies.";
+Quotation[4] = "A man can't be too careful in the choice of his enemies";
 QuoteSource[4] = "Oscar Wilde";
-Quotation[5] = "A friend is one who has the same enemies as you have."
+Quotation[5] = "A friend is one who has the same enemies as you have";
 QuoteSource[5] = "Abraham Lincoln";
+Quotation[6] = "I made this very long, because I did not have the leisure to make it shorter";
+QuoteSource[6] = "Blaise Pascal";
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
 
