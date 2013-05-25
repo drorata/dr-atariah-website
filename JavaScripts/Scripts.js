@@ -82,6 +82,8 @@ Quotation[5] = "A friend is one who has the same enemies as you have";
 QuoteSource[5] = "Abraham Lincoln";
 Quotation[6] = "I made this very long, because I did not have the leisure to make it shorter";
 QuoteSource[6] = "Blaise Pascal";
+Quotation[7] = "If only we'd stop trying to be happy, we could have a pretty good time";
+QuoteSource[7] = "Edith Wharton";
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
 
