@@ -28,9 +28,9 @@ function NavBar(str){
 			document.writeln('<LI><A HREF=research.html>Research</A><BR>');
 
 		if (str == "http://page.mi.fu-berlin.de/atariah/papers.html")
-			document.writeln('<LI><A HREF=papers.html class="active">Papers</A><BR>');
+			document.writeln('<LI><A HREF=papers.html class="active">Publications</A><BR>');
 		else
-			document.writeln('<LI><A HREF=papers.html >Papers</A><BR>');
+			document.writeln('<LI><A HREF=papers.html >Publications</A><BR>');
 
 		if (str == "http://page.mi.fu-berlin.de/atariah/talks.html")
 			document.writeln('<LI><A HREF=talks.html class="active">Talks</A><BR>');
