@@ -58,10 +58,6 @@ document.write("		<\/div>");
 document.write("		<ul id=\'nav\'>");
 document.write("			<script language=\'JavaScript\'> {NavBar(document.location);} <\/script>			");
 document.write("		<\/ul>");
-document.write("		<div id=\'logo\'>");
-document.write("<a href=\"http:\/\/www.math-berlin.de\" target=\"\_blank\"><img src=\"site_pictures\/bms-logo.gif\" width=\"65\" height=\"65\" border=\"0\" alt=\"\"><\/a>");
-document.write("<a href=\"http:\/\/www.fu-berlin.de\" target=\"\_blank\"><img src=\"site_pictures\/fu-logo.jpeg\" width=\"65\" height=\"65\" border=\"0\" alt=\"\"><\/a>");
-document.write("		<\/div>");
 }
 
 function genQuote(){
