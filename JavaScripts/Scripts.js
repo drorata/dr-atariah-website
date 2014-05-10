@@ -17,31 +17,31 @@ function genFooter(){
 }
 
 function NavBar(str){
-		if (str == "http://page.mi.fu-berlin.de/atariah/" || str == "http://page.mi.fu-berlin.de/atariah/index.html")
+    var base = "https://dl.dropboxusercontent.com/u/9709624/dr-atariah-website/"
+		if (str == base || str == base+"index.html")
 			document.writeln('<LI><A HREF=index.html class="active">Home</A><BR>');
 		else
 			document.writeln('<LI><A HREF=index.html>Home</A><BR>');
 
-		if (str == "http://page.mi.fu-berlin.de/atariah/research.html")
+		if (str == base+"research.html")
 			document.writeln('<LI><A HREF=research.html class="active">Research</A><BR>');
 		else
 			document.writeln('<LI><A HREF=research.html>Research</A><BR>');
 
-		if (str == "http://page.mi.fu-berlin.de/atariah/papers.html")
+		if (str == base+"papers.html")
 			document.writeln('<LI><A HREF=papers.html class="active">Publications</A><BR>');
 		else
 			document.writeln('<LI><A HREF=papers.html >Publications</A><BR>');
 
-		if (str == "http://page.mi.fu-berlin.de/atariah/talks.html")
+		if (str == base+"talks.html")
 			document.writeln('<LI><A HREF=talks.html class="active">Talks</A><BR>');
 		else
 			document.writeln('<LI><A HREF=talks.html >Talks</A><BR>');
 
-		if (str == "http://page.mi.fu-berlin.de/atariah/gallery.html")
+		if (str == base+"gallery.html")
 			document.writeln('<LI><A HREF=gallery.html class="active">Gallery</A><BR>');
 		else
 			document.writeln('<LI><A HREF=gallery.html >Gallery</A><BR>');
-
 }
 
 function genTitle(){
