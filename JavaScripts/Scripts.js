@@ -47,13 +47,10 @@ function NavBar(str){
 function genTitle(){
 var quote=genQuote();
 document.write("<div id=\'title_text\'>");
-document.write("			Dror Atariah");
+document.write("			Dr. Dror Atariah");
 document.write("		<\/div>");
 document.write("		<div id=\'subtitle\'>");
-//document.write("			&quot;I have had my results for a long time: but I do not yet know how I am to arrive at them&quot; <owner>- Carl Friedrich Gauss<\/owner> ");
-
 document.write("			&quot;"+quote[0]+"&quot;<br> <owner>- "+quote[1]+"<\/owner> ");
-
 document.write("		<\/div>");
 document.write("		<ul id=\'nav\'>");
 document.write("			<script language=\'JavaScript\'> {NavBar(document.location);} <\/script>			");
