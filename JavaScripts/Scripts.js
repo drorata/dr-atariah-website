@@ -52,6 +52,10 @@ document.write("		<\/div>");
 document.write("		<div id=\'subtitle\'>");
 document.write("			&quot;"+quote[0]+"&quot;<br> <owner>- "+quote[1]+"<\/owner> ");
 document.write("		<\/div>");
+document.write("		<div id=\'logo\'>");
+
+document.write("<a href=\"http:\/\/www.fu-berlin.de\" target=\"\_blank\"><img src=\"site_pictures\/colored-spiral-of-roots.png\" width=\"80\" height=\"80\" border=\"0\" alt=\"\"><\/a>");
+document.write("		<\/div>");
 document.write("		<ul id=\'nav\'>");
 document.write("			<script language=\'JavaScript\'> {NavBar(document.location);} <\/script>			");
 document.write("		<\/ul>");
